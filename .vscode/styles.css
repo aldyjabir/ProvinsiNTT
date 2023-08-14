@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+}
+
+td, th {
+  border: 2px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+}
